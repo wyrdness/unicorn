@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID/MYTHOLOGICAL_CREATURE",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/unicorn",
     "maintainers": [
       {
@@ -18,307 +16,110 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "unicorn",
     "name": "Unicorn",
-    "aliases": [
-      {
-        "name": "Alicorn",
-        "meaning": "Name for the unicorn's horn"
-      },
-      {
-        "name": "Monoceros",
-        "language": "Greek",
-        "meaning": "One horn"
-      }
-    ],
+    "aliases": [],
     "category": "CRYPTID/MYTHOLOGICAL_CREATURE",
-    "subcategory": "Mythological Beast",
+    "subcategory": "Equine",
     "tags": [
-      "mythological",
-      "horse-like",
-      "european",
-      "medieval",
-      "heraldry",
-      "symbolism",
-      "purity"
+      "without-zoological-basis."
     ],
-    "status": "mythological",
+    "status": "documented",
     "description": {
-      "summary": "Legendary horse-like creature with single spiral horn on forehead, symbol of purity and grace throughout medieval Europe and beyond.",
-      "full": "The unicorn is a legendary creature depicted as a white horse with a single, large, pointed, spiraling horn projecting from its forehead. Associated with purity, grace, and healing powers in medieval European tradition, the unicorn could allegedly only be captured by a virgin. Historical descriptions likely arose from misidentified accounts of rhinoceros or oryx, combined with narwhal tusks sold as 'unicorn horns' in medieval Europe. The unicorn became a powerful Christian symbol and appears prominently in heraldry, including as Scotland's national animal."
+      "summary": "The unicorn is a legendary creature depicted as a white horse with a single, large, pointed, spiraling horn projecting from its forehead.",
+      "full": "The unicorn is a legendary creature depicted as a white horse with a single, large, pointed, spiraling horn projecting from its forehead. Associated with purity, grace, and healing powers in medieval European tradition, the unicorn could allegedly only be captured by a virgin. Historical descriptions likely arose from misidentified accounts of rhinoceros or oryx, combined with narwhal tusks sold as \\\"unicorn horns\\\" in medieval Europe. The unicorn became a powerful Christian symbol and appears prominently in heraldry, including as Scotland's national animal."
     },
     "etymology": {
-      "origin": "From Latin 'unicornis' meaning 'one-horned', from 'uni-' (one) and 'cornu' (horn)",
-      "meaning": "One-horned creature",
-      "first_use": "Ancient Greece (Ctesias, circa 400 BCE)"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID/MYTHOLOGICAL_CREATURE",
-      "type": "Mythological Beast",
-      "subtype": "Equine",
-      "variant": "European"
+      "type": "Equine",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "pegasus",
-        "name": "Pegasus",
-        "relationship": "similar",
-        "description": "Winged horse of Greek mythology"
-      },
-      {
-        "id": "kirin",
-        "name": "Qilin/Kirin",
-        "relationship": "cultural_equivalent",
-        "description": "Chinese unicorn-like creature"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "appearance": "White horse with single spiral horn, goat-like beard, cloven hooves, lion's tail",
-      "coloration": [
-        "white (primary)",
-        "occasionally silver or golden"
-      ],
-      "features": [
-        {
-          "feature": "Spiral horn",
-          "description": "Single long, pointed spiral horn projecting from forehead",
-          "frequency": "always"
-        },
-        {
-          "feature": "Goat-like beard",
-          "description": "Small beard beneath chin",
-          "frequency": "common"
-        },
-        {
-          "feature": "Cloven hooves",
-          "description": "Split hooves like goat or deer rather than horse",
-          "frequency": "common"
-        },
-        {
-          "feature": "Lion's tail",
-          "description": "Tufted tail resembling a lion's",
-          "frequency": "common"
-        }
-      ],
-      "morphology": "Horse-like body combining features of multiple animals: horse body, goat hooves and beard, lion's tail, deer-like grace"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Healing powers",
-        "description": "Horn (alicorn) believed to purify water and cure poison",
-        "frequency": "legendary",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Poison detection",
-        "description": "Horn could detect poisoned substances",
-        "frequency": "legendary",
-        "evidence_level": "mythological"
-      },
-      {
-        "ability": "Untamable nature",
-        "description": "Could only be captured by a virgin maiden",
-        "frequency": "legendary",
-        "evidence_level": "mythological"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "disposition": "gentle but wild",
-      "habitat_preference": [
-        "forests",
-        "wilderness",
-        "mountains"
-      ],
-      "patterns": [
-        "Avoids humans except virgins",
-        "Fierce when cornered",
-        "Symbol of purity and chastity"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Mythological accounts primarily from medieval Europe, with earliest descriptions from ancient Greek natural histories",
-      "continents": ["Europe", "Asia (historical descriptions)"],
-      "regions": [
-        "Medieval Europe",
-        "Ancient India (Ctesias' accounts)",
-        "Medieval Christian tradition"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "400 BCE",
+        "date": "Unknown",
         "circa": true,
-        "source": "Ctesias' Indica describing one-horned wild ass"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Medieval Period (1000-1500 CE)",
-          "description": "Height of unicorn symbolism in European culture and heraldry"
-        }
-      ]
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Ancient Greek natural histories, likely based on travelers' accounts of rhinoceros, oryx, or other animals. Narwhal tusks imported to Europe were sold as unicorn horns.",
-      "earliest_accounts": "Ctesias of Cnidus (circa 400 BCE) described one-horned wild asses in India",
-      "folklore_connections": "Connected to medieval bestiaries, Christian symbolism, heraldry traditions"
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "400 BCE",
-        "event": "Ctesias describes one-horned animal",
-        "significance": "First Western written account of unicorn-like creature",
-        "source": "Indica by Ctesias"
-      },
-      {
-        "date": "Medieval Period",
-        "event": "Christian symbolism adopted",
-        "significance": "Unicorn becomes symbol of Christ, purity, and the Virgin Mary",
-        "source": "Medieval bestiaries"
-      },
-      {
-        "date": "1200s-1600s",
-        "event": "Alicorn trade",
-        "significance": "Narwhal tusks sold as unicorn horns for enormous sums, used medicinally",
-        "source": "European trade records"
-      },
-      {
-        "date": "1603",
-        "event": "Scottish Royal Arms",
-        "significance": "Unicorn becomes supporter of Scottish Royal Arms, later UK Royal Arms",
-        "source": "Heraldic records"
-      }
-    ],
-    "modern_era": "The unicorn remains a powerful cultural symbol, appearing in literature, fantasy media, and as Scotland's national animal. No serious cryptozoological investigation."
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
   "evidence": {
-    "physical": [
-      {
-        "type": "horn",
-        "name": "Alicorns",
-        "description": "Numerous 'unicorn horns' in medieval collections, now known to be narwhal tusks",
-        "status": "debunked",
-        "analysis": "All examined specimens are narwhal tusks"
-      }
-    ],
-    "historical": [
-      {
-        "type": "descriptions",
-        "name": "Ancient accounts",
-        "description": "Greek and Roman natural histories describing one-horned creatures",
-        "status": "historical",
-        "analysis": "Likely based on rhinoceros, oryx sightings from distance, or combined animal reports"
-      }
-    ]
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
-
   "theories": {
-    "mythological": [
-      {
-        "name": "Symbolic creature",
-        "description": "Unicorn as purely symbolic Christian and medieval allegory",
-        "proponents": ["Medieval scholars"],
-        "evidence_cited": ["Religious artwork", "Bestiaries", "Allegorical literature"]
-      }
-    ],
-    "historical_basis": [
-      {
-        "name": "Rhinoceros misidentification",
-        "description": "Travelers' accounts of rhinoceros distorted through retelling",
-        "proponents": ["Historians"],
-        "evidence_cited": ["Similarity to Ctesias' description", "Indian rhinoceros habitat"]
-      },
-      {
-        "name": "Oryx conflation",
-        "description": "Arabian oryx viewed from side appears single-horned",
-        "proponents": ["Zoologists"],
-        "evidence_cited": ["Visual similarity", "Geographic distribution"]
-      },
-      {
-        "name": "Narwhal tusk trade",
-        "description": "Viking narwhal tusk trade reinforced unicorn belief in medieval Europe",
-        "proponents": ["Historians"],
-        "evidence_cited": ["Documented alicorn trade", "Chemical analysis of 'horns'"]
-      }
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Medieval bestiaries",
-        "Christian allegory",
-        "Heraldic traditions"
-      ],
-      "stories": [
-        "The Lady and the Unicorn tapestries",
-        "Hunt of the Unicorn tapestries",
-        "Virgin and unicorn allegory"
-      ],
-      "beliefs": "Symbol of purity, grace, healing. Only capturable by virgin maiden. Horn purifies water and cures poison."
-    },
-    "symbolism": {
-      "purity": "Most enduring association, especially female chastity",
-      "christ": "Medieval Christian symbol for Christ and resurrection",
-      "scotland": "National animal of Scotland, appears on Royal Arms",
-      "healing": "Alicorn believed to have medicinal properties"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "The Last Unicorn by Peter S. Beagle (1968)",
-        "Harry Potter series (unicorns in Forbidden Forest)",
-        "Countless fantasy novels"
-      ],
-      "film_tv": [
-        "The Last Unicorn (1982 film)",
-        "Legend (1985)",
-        "My Little Pony franchise"
-      ],
-      "heraldry": [
-        "Royal Arms of the United Kingdom",
-        "Royal Arms of Scotland",
-        "Numerous family coats of arms"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "ctesias-indica",
-      "type": "ancient text",
-      "title": "Indica",
-      "authors": ["Ctesias of Cnidus"],
-      "date": "circa 400 BCE"
-    },
-    {
-      "id": "freeman-unicorn",
-      "type": "book",
-      "title": "The Unicorn",
-      "authors": ["Margaret B. Freeman"],
-      "publication": "Metropolitan Museum of Art",
-      "date": "1976"
-    },
-    {
-      "id": "gotfredsen-narwhal",
-      "type": "article",
-      "title": "The Unicorn Horn: Magical Medicine from the Narwhal",
-      "authors": ["Anne Birgitte Gotfredsen"],
-      "publication": "Acta Borealia",
-      "date": "1997"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
