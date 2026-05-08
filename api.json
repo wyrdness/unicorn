@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/unicorn",
     "maintainers": [
       {
@@ -16,71 +16,143 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "unicorn",
     "name": "Unicorn",
-    "aliases": [],
-    "category": "CRYPTID/MYTHOLOGICAL_CREATURE",
-    "subcategory": "Equine",
+    "aliases": [
+      { "name": "Monoceros", "language": "Greek/Latin", "meaning": "'one-horned'" },
+      { "name": "Re'em", "language": "Hebrew", "meaning": "horned wild ox; rendered as 'unicorn' in the Septuagint and KJV" },
+      { "name": "Licorne", "language": "French", "meaning": "unicorn" },
+      { "name": "Einhorn", "language": "German", "meaning": "'one-horn'" },
+      { "name": "Qilin / Kirin", "language": "Chinese / Japanese", "region": "East Asia", "meaning": "an East Asian one- or two-horned chimerical creature, often called the 'Chinese unicorn' though distinct in tradition" },
+      { "name": "Karkadann", "language": "Persian/Arabic", "region": "Persia, Arabia, India", "meaning": "single-horned creature of Persian and Arabic literature, often associated with the rhinoceros" }
+    ],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Single-horned equine / quadruped",
     "tags": [
-      "without-zoological-basis."
+      "single-horn",
+      "purity",
+      "medieval",
+      "bestiary",
+      "heraldry",
+      "narwhal",
+      "europe",
+      "antiquity",
+      "christian-allegory"
     ],
     "status": "documented",
     "description": {
-      "summary": "The unicorn is a legendary creature depicted as a white horse with a single, large, pointed, spiraling horn projecting from its forehead.",
-      "full": "The unicorn is a legendary creature depicted as a white horse with a single, large, pointed, spiraling horn projecting from its forehead. Associated with purity, grace, and healing powers in medieval European tradition, the unicorn could allegedly only be captured by a virgin. Historical descriptions likely arose from misidentified accounts of rhinoceros or oryx, combined with narwhal tusks sold as \\\"unicorn horns\\\" in medieval Europe. The unicorn became a powerful Christian symbol and appears prominently in heraldry, including as Scotland's national animal."
+      "summary": "A legendary single-horned quadruped most familiar in Europe as a horse-like creature symbolizing purity, but with deep roots in Greco-Roman natural history, biblical translation, and global one-horned-creature traditions.",
+      "full": "The unicorn is a legendary creature widely depicted in modern Western art as a white horse with a long, spiraling horn projecting from its forehead. Its history is older and more varied than this iconic form. Early Greek natural-history writers — notably Ctesias (5th century BCE) in Indica, followed by Aristotle, Strabo, Megasthenes, Pliny the Elder, Aelian, and Cosmas Indicopleustes — described one-horned wild asses, oxen, or 'monoceros' said to inhabit India or Africa, almost certainly drawing on garbled accounts of rhinoceroses, oryxes, and other real animals. Hebrew scripture's re'em was translated as monokerōs in the Septuagint and as 'unicorn' in the King James Bible (1611), embedding the creature in Christian sacred text. The medieval bestiary tradition, drawing on the Late Antique Physiologus (c. 2nd century CE), made the unicorn a Christian allegory: an untamable beast that could be captured only by a virgin in whose lap it would rest its head — interpreted as Christ being made incarnate in the Virgin Mary and captured by his persecutors. From the late medieval period through the early modern era, narwhal tusks were sold as 'alicorns' (unicorn horns) prized for detecting and neutralizing poison; the Danish physician Ole Worm demonstrated their narwhal origin in 1638. Despite the absence of any zoological basis for the European unicorn, the creature became a fixture of heraldry — most famously as one of the supporters of the Royal Coat of Arms of the United Kingdom and as the national animal of Scotland — and remains a powerful modern symbol of purity, magic, and the elusive."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Latin unicornis (uni- 'one' + cornu 'horn'), calquing Greek monokerōs (μονόκερως). The English 'unicorn' is attested from the early 13th century via Old French unicorne.",
+      "meaning": "'One-horn'",
+      "first_use": "Greek monokerōs in the Septuagint translation of Hebrew scripture (3rd–2nd century BCE); English 'unicorn' from the 13th century"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID/MYTHOLOGICAL_CREATURE",
-      "type": "Equine",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "Single-horned quadruped",
+      "subtype": "Equine (in late-medieval and modern European tradition)",
+      "variant": "European medieval"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "qilin", "name": "Qilin / Kirin", "relationship": "similar", "description": "East Asian chimerical creature sometimes called the 'Chinese unicorn'" },
+      { "id": "karkadann", "name": "Karkadann", "relationship": "similar", "description": "Persian and Arabic single-horned beast, often associated with the rhinoceros" },
+      { "id": "rhinoceros-myth", "name": "Rhinoceros (mythologized)", "relationship": "related", "description": "Real animal whose horn and behavior likely informed many ancient unicorn descriptions" },
+      { "id": "narwhal", "name": "Narwhal", "relationship": "related", "description": "Arctic whale whose long spiraled tusk was sold as 'unicorn horn' (alicorn) in medieval and early modern Europe" },
+      { "id": "indricotherium", "name": "Elasmotherium", "relationship": "related", "description": "Extinct Eurasian horned rhinoceros sometimes proposed as a partial source of unicorn legends" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.4, "max": 1.8, "unit": "meters", "confidence": "low" },
+      "coloration": ["white (medieval and modern)", "white with red and black markings (Ctesias)", "ass- or horse-coloured (varied ancient sources)"],
+      "features": [
+        { "feature": "Single forehead horn", "description": "A single horn projecting from the centre of the forehead; in late-medieval and modern depictions long, straight, and spirally grooved", "frequency": "always" },
+        { "feature": "Equine body", "description": "In late-medieval and modern European depictions, body of a small horse; in older sources resembles an ass, goat, or ox", "frequency": "common" },
+        { "feature": "Cloven or solid hooves", "description": "Cloven hooves (goat-like) in many bestiaries; solid hooves in modern romantic depictions", "frequency": "common" },
+        { "feature": "Lion's tail", "description": "Tufted lion-like tail in many medieval depictions", "frequency": "common" },
+        { "feature": "Goat beard", "description": "Small beard in many medieval and Renaissance depictions", "frequency": "common" }
+      ],
+      "morphology": "A small to medium-sized quadruped, generally horse- or goat-like, with a single forehead horn. Pre-medieval descriptions emphasize fierce, ass-like or ox-like animals; high-medieval and modern depictions emphasize a graceful, purity-symbolizing horse-form."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Untamable except by a virgin", "description": "The unicorn cannot be captured by force; it can only be lured by a virgin in whose lap it lays its head. This narrative is central to medieval bestiaries and Christian allegory.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Poison-detection (alicorn)", "description": "The unicorn's horn was said to detect and neutralize poison; powdered 'alicorn' (in fact narwhal tusk) was sold as a medicinal at high prices through the 18th century", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Healing", "description": "Drinking from a stream into which a unicorn dips its horn was said to purify the water", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Speed and ferocity (ancient sources)", "description": "Ctesias and Pliny describe the unicorn as exceptionally fast and difficult to take alive", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "remote forests (medieval European tradition)",
+        "India (Greek and Roman natural history)",
+        "African deserts and mountains (Cosmas Indicopleustes)",
+        "uninhabited wilderness"
+      ],
+      "diet": "Folkloric: drinks from clean streams; in some traditions feeds on flowers and herbs.",
+      "patterns": [
+        "Solitary",
+        "Drawn to virgins",
+        "Avoids hunters and human company",
+        "Sometimes depicted at the foot of the Tree of Life (Christian allegory)"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Unicorn-type traditions are global and pre-modern; the European unicorn is most closely associated with India and the imagined East in classical sources, and with European forests in medieval bestiaries.",
+      "continents": ["Europe", "Asia", "Africa"],
+      "countries": ["Greece (ancient)", "Rome (ancient)", "India (ancient sources locate the creature here)", "England", "Scotland", "France", "Germany"],
+      "regions": [
+        "Mediterranean classical world",
+        "Medieval Europe",
+        "Persia and the Arab world (karkadann)",
+        "East Asia (qilin/kirin tradition)"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "5th century BCE",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Ctesias of Cnidus, Indica (preserved in summaries)"
+      },
+      "peak_activity_periods": [
+        { "period": "5th century BCE – 1st century CE", "description": "Greco-Roman natural-history descriptions (Ctesias, Aristotle, Strabo, Pliny, Aelian)" },
+        { "period": "12th–15th centuries", "description": "Medieval bestiary and Christian-allegorical iconography (Physiologus tradition; tapestries such as The Hunt of the Unicorn and The Lady and the Unicorn)" },
+        { "period": "16th–18th centuries", "description": "Alicorn (unicorn-horn) trade peaks; Ole Worm (1638) demonstrates the horn's narwhal origin" }
+      ],
+      "seasonal_patterns": "None."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The European unicorn is a literary and theological synthesis: garbled Greek and Roman natural history (Ctesias, Pliny, Aelian) about Indian rhinoceroses and oryxes, fused with the Septuagint translation of the Hebrew re'em as monokerōs, then re-read through the Physiologus and medieval bestiaries as a Christian allegory of the Incarnation.",
+      "earliest_accounts": "Ctesias of Cnidus, a Greek physician at the Persian court in the 5th century BCE, gives the earliest detailed Greek description of a one-horned 'wild ass' in India. The Indus Valley civilization (c. 3rd–2nd millennium BCE) produced soapstone seals depicting bovid creatures shown in profile with what appears to be a single horn — the 'unicorn seals' — though this is interpretive rather than evidence of belief in a unicorn.",
+      "folklore_connections": "Connected to broader Eurasian one-horned-creature traditions including the Persian karkadann and the East Asian qilin / kirin."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "0400-01-01", "event": "Ctesias of Cnidus, in his Indica, describes a one-horned Indian wild ass; this is the earliest detailed Greek account of a unicorn-like creature", "significance": "Foundational classical reference", "source": "Ctesias of Cnidus, Indica (5th–4th century BCE; preserved in later summaries)" },
+      { "date": "0077-01-01", "event": "Pliny the Elder describes the monoceros in his Natural History, attributing to it a stag's head, elephant's feet, and a single black horn", "significance": "Influential Roman natural-history account", "source": "Pliny the Elder, Naturalis Historia (c. 77 CE)" },
+      { "date": "0250-01-01", "event": "The Physiologus, a Greek Christian text, popularizes the virgin-and-unicorn allegory in which the unicorn represents Christ", "significance": "Origin of the medieval Christian unicorn allegory", "source": "Physiologus (Late Antique)" },
+      { "date": "1500-01-01", "event": "The Lady and the Unicorn tapestries are woven in Flanders for a French patron", "significance": "Iconic late-medieval visual treatment of the unicorn", "source": "Musée de Cluny, Paris (collection)" },
+      { "date": "1611-01-01", "event": "The King James Bible (1611) translates Hebrew re'em as 'unicorn' in nine passages, anchoring the unicorn in English-language sacred text", "significance": "Major influence on the place of the unicorn in early modern English imagination", "source": "Authorized King James Version (1611)" },
+      { "date": "1638-01-01", "event": "Danish physician Ole Worm demonstrates that 'unicorn horns' (alicorns) in European royal collections are narwhal tusks", "significance": "Beginning of the natural-history demystification of the alicorn trade", "source": "Worm, O. (1638)" }
+    ],
+    "modern_era": "The unicorn no longer figures in mainstream natural history but remains a powerful cultural symbol — in heraldry (Scotland's national animal, the United Kingdom's coat of arms), in fantasy literature and film (Peter S. Beagle's The Last Unicorn, the unicorns of C. S. Lewis and J. K. Rowling), and as an LGBTQ+ pride symbol via association with rainbows."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +163,168 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "unicorn-evidence-alicorn",
+        "type": "alicorn (narwhal tusk)",
+        "name": "Royal alicorn collections",
+        "description": "Long, spiraled horns kept in royal European treasuries from the medieval period through the early modern era — among them the famous 'horn of St Denis' and tusks held at the Hofburg in Vienna — sold and venerated as unicorn horn.",
+        "status": "debunked",
+        "analysis": "Identified by Ole Worm in 1638 as the elongated tusks of male narwhals; subsequent natural history confirmed this attribution.",
+        "source": "Worm, O. (1638); Shepard, O. (1930), The Lore of the Unicorn"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "unicorn-evidence-physiologus",
+        "type": "literary corpus",
+        "name": "Physiologus and the medieval bestiary tradition",
+        "description": "A continuous textual tradition from Late Antiquity through the late Middle Ages giving the unicorn its central place in Christian allegory.",
+        "status": "verified",
+        "analysis": "Verified as the textual source of the European unicorn iconography and the virgin-capture narrative.",
+        "source": "Physiologus (c. 2nd century CE) and medieval bestiaries"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Greek-Roman descriptions = real animals (rhinoceros, oryx)",
+        "description": "Ancient unicorn descriptions are best explained as garbled accounts of Indian and African rhinoceroses, Arabian oryx (whose two horns can appear as one in profile), and possibly the wild ass.",
+        "proponents": ["Odell Shepard (1930)", "Modern classical and zoological scholarship"],
+        "evidence_cited": ["Geographic and morphological correspondence with rhinoceros and oryx", "Travel accounts and trade records of Indian rhinoceros sightings"]
+      },
+      {
+        "name": "Alicorn trade = narwhal tusk",
+        "description": "The 'unicorn horns' of medieval and early modern European treasuries were the elongated tusks of male narwhals, traded south by Norse, Sami, and later Hanseatic merchants.",
+        "proponents": ["Ole Worm (1638)", "Shepard (1930)"],
+        "evidence_cited": ["Direct anatomical comparison of narwhal tusk with surviving alicorns", "Trade records of Greenland and Norwegian narwhal-tusk exports"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural-symbolic creature",
+        "description": "There is no zoological basis for the European unicorn; it is best understood as a creature of literature, theology, and heraldry rather than natural history.",
+        "proponents": ["Modern academic consensus"],
+        "evidence_cited": ["Absence of any specimen or remains", "Continuous evolution of the figure within literary and theological texts"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Greco-Roman natural-history literature",
+        "Late Antique and medieval Christian bestiary tradition",
+        "Persian and Arabic karkadann tradition",
+        "East Asian qilin tradition (related but distinct)"
+      ],
+      "stories": [
+        "The hunt of the unicorn and capture by a virgin (Physiologus)",
+        "The unicorn purifying poisoned water with its horn",
+        "The Lion and the Unicorn (English heraldic and nursery rhyme tradition)"
+      ],
+      "beliefs": "In the medieval Christian context, the unicorn represented Christ; the virgin who lured it represented the Virgin Mary; the hunters who captured it represented Christ's persecutors."
+    },
+    "indigenous": {
+      "cultures": [],
+      "significance": "Not an indigenous tradition; a literary creature of the Mediterranean and European cultural sphere with parallels in West and South Asia."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Pliny the Elder, Naturalis Historia (c. 77 CE)",
+        "Physiologus (c. 2nd century CE)",
+        "Shepard, O. (1930), The Lore of the Unicorn",
+        "Beagle, P. S. (1968), The Last Unicorn",
+        "Lewis, C. S. (1956), The Last Battle (The Chronicles of Narnia)",
+        "Rowling, J. K., Harry Potter and the Philosopher's Stone (1997)"
+      ],
+      "film_tv": [
+        "The Last Unicorn (1982)",
+        "Legend (1985)",
+        "Various Harry Potter and Narnia film adaptations"
+      ],
+      "games": [
+        "Dungeons & Dragons (a recurring monster since 1974)",
+        "The Witcher series (gameplay and lore reference)"
+      ],
+      "music": [
+        "'The Unicorn' (The Irish Rovers, 1968 — popularizing the Shel Silverstein song)"
+      ],
+      "other": [
+        "Royal Coat of Arms of the United Kingdom (the unicorn supporter)",
+        "National animal of Scotland",
+        "Symbol associated with LGBTQ+ pride and modern brand culture"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Odell Shepard", "affiliation": "Trinity College (Hartford); literature and folklore", "contribution": "The Lore of the Unicorn (1930), the standard scholarly history of the unicorn in Western culture", "period": "1920s–1930s" },
+      { "name": "Chris Lavers", "affiliation": "University of Nottingham (zoology)", "contribution": "The Natural History of Unicorns (2009), tracing zoological roots of unicorn legends", "period": "2000s" }
+    ],
+    "organizations": [
+      { "name": "The Met Cloisters", "url": "https://www.metmuseum.org/visit/plan-your-visit/met-cloisters", "focus": "Conservation and study of the Hunt of the Unicorn tapestries (c. 1495–1505)" },
+      { "name": "Musée de Cluny – Musée national du Moyen Âge", "url": "https://www.musee-moyenage.fr", "focus": "Holds the Lady and the Unicorn tapestry cycle" }
+    ],
+    "ongoing_studies": "Continuing scholarship in art history (bestiary and tapestry studies), classical philology (Ctesias and Pliny reception), and natural-history history (the alicorn trade)."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wiki-unicorn",
+      "type": "website",
+      "title": "Unicorn",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Unicorn",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "britannica-unicorn",
+      "type": "website",
+      "title": "Unicorn",
+      "publication": "Encyclopædia Britannica",
+      "url": "https://www.britannica.com/topic/unicorn",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "shepard-1930",
+      "type": "book",
+      "title": "The Lore of the Unicorn",
+      "authors": ["Odell Shepard"],
+      "publication": "Houghton Mifflin",
+      "date": "1930"
+    },
+    {
+      "id": "lavers-2009",
+      "type": "book",
+      "title": "The Natural History of Unicorns",
+      "authors": ["Chris Lavers"],
+      "publication": "Granta",
+      "date": "2009",
+      "isbn": "978-1847080981"
+    },
+    {
+      "id": "pliny-natural-history",
+      "type": "book",
+      "title": "Naturalis Historia",
+      "authors": ["Pliny the Elder"],
+      "date": "c. 77 CE"
+    },
+    {
+      "id": "physiologus",
+      "type": "book",
+      "title": "Physiologus",
+      "date": "c. 2nd century CE"
+    }
+  ]
 }
